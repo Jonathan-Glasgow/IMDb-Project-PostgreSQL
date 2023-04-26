@@ -1,5 +1,5 @@
-# IMDb-Project-PostgreSQL
-A project that showcases a few queries on IMDb's dataset using a local PostgreSQL server.
+# PostgreSQL-Movie-Dataset-Analysis
+A project that showcases a few queries on The Movie Database and MovieLens' datasets using a local PostgreSQL server.
 
 - Database schema setup and query questions are all included in "PostgreSQL Movie Queries for Analysis.pdf".
 - Queries.sql can be run to automatically execute the queries.
