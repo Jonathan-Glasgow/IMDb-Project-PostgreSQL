@@ -1,0 +1,220 @@
+   id   |  imdb_id  |      title       |                                                                                                                                                                                 overview                                                                                                                                                                                 | runtime | release_date | popularity | budget | revenue | vote_average | vote_count 
+--------+-----------+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+--------------+------------+--------+---------+--------------+------------
+  82663 | tt0113002 | Midnight Man     | British soldiers force a recently captured IRA terrorist to cooperate with them and then assign him to go undercover with a gang of terrorists and prevent them from killing the U.S. President. But the spy isn't in long before he realizes that the first plot is but a ruse for a more sinister scheme that could result in trouble between China and Great Britain. |     104 | 2018-01-19   |            |        |         |              |           
+ 249260 | tt2622826 | Avalanche Sharks | A group of skiers are terrorized during spring break by some sharks that swim through the snow.                                                                                                                                                                                                                                                                          |      82 | 2014-01-01   |            |        |         |              |           
+(2 rows)
+
+   id   |                    title                     |   budget   
+--------+----------------------------------------------+------------
+  19995 | Avatar                                       | 2787965087
+ 140607 | Star Wars: The Force Awakens                 | 2068223624
+    597 | Titanic                                      | 1845034188
+  24428 | The Avengers                                 | 1519557910
+ 135397 | Jurassic World                               | 1513528810
+ 168259 | Furious 7                                    | 1506249360
+  99861 | Avengers: Age of Ultron                      | 1405403694
+  12445 | Harry Potter and the Deathly Hallows: Part 2 | 1342000000
+ 109445 | Frozen                                       | 1274219009
+ 321612 | Beauty and the Beast                         | 1262886337
+(10 rows)
+
+ popularity_min | popularity_max | vote_average_min | vote_average_max 
+----------------+----------------+------------------+------------------
+              1 |        3.8e+08 |              0.0 |             10.0
+(1 row)
+
+            title             |                                                                                                                                                                                                                                                                                                                                                                      overview                                                                                                                                                                                                                                                                                                                                                                       
+------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ I.Q.                         | Albert Einstein helps a young man who's in love with Einstein's niece to catch her attention by pretending temporarily to be a great physicist.
+ Young Einstein               | Albert Einstein is the son of a Tasmanian apple farmer, who discovers the secret of splitting the beer atom to put the bubbles back into beer. When Albert travels to Sydney to patent his invention he meets beatuiful French scientist Marie Curie, as well as several unscrupulous types who try to take advantage of the naive genius and his invention.
+ Insignificance               | Four 1950s cultural icons (Albert Einstein, Marilyn Monroe, Joe DiMaggio, and Senator Joseph MacCarthy) who conceivably could have met but probably didn't, fictionally do so in this modern fable of post-WWII America. Visually intriguing, the film has a fluid progression of flash-backs and flash-forwards centering on the fictional Einstein's current observations, childhood memories, and apprehensions for the future.
+ The Spaceman and King Arthur | A NASA spacecraft proves Einstein right when, travelling faster than light, it ends up near King Arthur's Camelot. On board are big-hearted Tom Trimble and Hermes, the look-alike robot he built. Tom immediately makes friends with pretty Alisande and enemies with the awful knight Sir Nordred. It seems Nordred is out to oust Arthur, while Alisande's father is not the goose she believes him to be but is also a victim of Nordred's schemes. It's as well the Americans have arrived.
+ Future by Design             | Future by Design shares the life and far-reaching vision of Jacque Fresco, considered by many to be a modern day Da Vinci. Peer to Einstein and Buckminster Fuller, Jacque is a self-taught futurist who describes himself most often as a "generalist" or multi-disciplinarian -- a student of many inter-related fields.
+ Einstein and Eddington       | A look at the evolution of Albert Einstein's theory of relativity, and Einstein's relationship with British scientist Sir Arthur Eddington, the first physicist to understand his ideas.
+ Brooklyn Castle              | Brooklyn Castle is a documentary about I.S. 318 an inner-city school where more than 65 percent of students are from homes with incomes below the federal poverty level that also happens to have the best, most winning junior high school chess team in the country. (If Albert Einstein, who was rated 1800, were to join the team, he'd only rank fifth best.) Chess has transformed the school from one cited in 2003 as a "school in need of improvement" to one of New York City's best. But a series of recession-driven public school budget cuts now threaten to undermine those hard-won successes.
+ Oscar and the Lady in Pink   | Listening in to a conversation between his doctor and parents, 10-year-old Oscar learns what nobody has the courage to tell him. He only has a few weeks to live. Furious, he refuses to speak to anyone except straight-talking Rose, the lady in pink he meets on the hospital stairs. As Christmas approaches, Rose uses her fantastical experiences as a professional wrestler, her imagination, wit and charm to allow Oscar to live life and love to the full, in the company of his friends Pop Corn, Einstein, Bacon and childhood sweetheart Peggy Blue. Written by American Film Market
+ Inner Worlds, Outer Worlds   | There is one vibratory field that connects all things. It has been called Akasha, Logos, the primordial OM, the music of the spheres, the Higgs field, dark energy, and a thousand other names throughout history. The vibratory field is at the root of all true spiritual experience and scientific investigation. It is the same field of energy that saints, Buddhas, yogis, mystics, priests, shamans and seers, have observed by looking within themselves. Many of history's monumental thinkers, such a Pythagoras, Kepler, Leonardo DaVinci, Tesla, and Einstein, have come to the threshold of this great mystery. It is the common link between all religions, all sciences, and the link between our inner worlds and our outer worlds.
+ Day One                      | Hungarian physicist Leo Szilard leaves Europe, eventually arriving in the United States. With the help of Einstein, he persuades the government to build an atomic bomb. The project is given to no-nonsense Gen. Leslie Groves who selects physicist J. Robert Oppenheimer to head the Los Alamos Laboratory in New Mexico, where the bomb is built. As World War II draws to a close, Szilard has second thoughts about atomic weapons, and policy makers debate how and when to use the bomb.
+(10 rows)
+
+ month |        avg         
+-------+--------------------
+     1 | 3.5620786883139217
+     2 | 3.6494849063658684
+     3 | 3.4259549869887368
+     4 | 3.5489859947345771
+     5 | 3.4212277923702740
+     6 | 3.6219273887770878
+     7 | 3.7258896892807225
+     8 | 3.4804794204928760
+     9 | 3.5333297777777778
+    10 | 3.5759213618213999
+    11 | 3.4541903449210850
+    12 | 3.5240976004049674
+(12 rows)
+
+      genre      |              title              | release_date 
+-----------------+---------------------------------+--------------
+ Fantasy         | Avatar 2                        | 2020-12-16
+ Science Fiction | Avatar 2                        | 2020-12-16
+ Adventure       | Avatar 2                        | 2020-12-16
+ Action          | Avatar 2                        | 2020-12-16
+ Drama           | The Other Side of the Wind      | 2018-12-31
+ Comedy          | The Other Side of the Wind      | 2018-12-31
+ Crime           | Bad Boys for Life               | 2018-11-07
+ Thriller        | Bad Boys for Life               | 2018-11-07
+ Romance         | Mary Shelley                    | 2018-04-25
+ Family          | Sly Cooper                      | 2017-12-31
+ Animation       | Sly Cooper                      | 2017-12-31
+ Music           | How to Talk to Girls at Parties | 2017-12-27
+ Documentary     | 78/52                           | 2017-11-03
+ Horror          | Leatherface                     | 2017-09-14
+ Western         | The Dark Tower                  | 2017-08-03
+ Mystery         | Wind River                      | 2017-08-03
+ History         | Detroit                         | 2017-07-28
+ TV Movie        | Descendants 2                   | 2017-07-21
+ War             | Dunkirk                         | 2017-07-19
+ Foreign         | Aim High In Creation            | 2013-11-19
+(20 rows)
+
+          title          |      genre      |                                                                                                                                                                       overview                                                                                                                                                                       
+-------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Cool Cat Saves the Kids | Action          | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Comedy          | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Crime           | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Drama           | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Family          | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Fantasy         | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Music           | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Cool Cat Saves the Kids | Thriller        | Cool Cat is the coolest cat in town. All the kids love him. Except for the bully Butch, who hates Cool Cat for his coolness. He terrorizes Cool Cat, his friends and family with threats, taunting, and the internet. Can Cool Cat face his fears and defeat the bully Derrick.
+ Yu-Gi-Oh! The Movie     | Action          | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Adventure       | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Animation       | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Comedy          | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Family          | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Fantasy         | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Science Fiction | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+ Yu-Gi-Oh! The Movie     | Thriller        | After the conclusion of the Battle City Tournament, deep below the sands of Egypt, an ancient evil has awakened. Anubis, who was defeated centuries ago by Yugi's mysterious alter ego the ancient Pharaoh has returned for revenge. Wielding the power of the Eighth Millennium Item, Anubis is determined to destroy Yugi and take over the world.
+(16 rows)
+
+      genre      |  average_revenue   
+-----------------+--------------------
+ Adventure       |  6.893992432128389
+ Fantasy         |  6.613440500065231
+ Animation       |  5.675288403412527
+ Science Fiction |  5.605821561906859
+ Action          |  5.595397292620466
+ Family          |  5.334753055122252
+ Thriller        |  5.017942162214186
+ Crime           |  4.771407706302542
+ Mystery         |  4.437481780514689
+ History         |  4.030969959158767
+ Horror          |  3.855940400810538
+ War             | 3.7982011709744308
+ Comedy          | 3.7552022436802415
+ Drama           |  3.572923115375433
+ Romance         |  3.537206984965271
+ Western         | 2.8340225941921022
+ Music           |  2.740440572397424
+ TV Movie        |   2.13922654708551
+ Documentary     | 0.9818784157662465
+ Foreign         | 0.6745665868283084
+(20 rows)
+
+      genre      | year |  average_revenue   
+-----------------+------+--------------------
+ Action          | 2015 |  8.025827494889704
+ Action          | 2016 | 11.185051338038814
+ Action          | 2017 | 29.209506830407513
+ Action          | 2018 | 2.0480974912643433
+ Action          | 2020 |  6.020054817199707
+ Adventure       | 2015 |  16.40624864675543
+ Adventure       | 2016 | 16.144377207383513
+ Adventure       | 2017 |  36.59290773868561
+ Adventure       | 2020 |  6.020054817199707
+ Animation       | 2015 | 15.226647125861861
+ Animation       | 2016 |  6.837087516375679
+ Animation       | 2017 | 17.142442322439617
+ Comedy          | 2015 |  5.871831548524007
+ Comedy          | 2016 | 4.6589833930099065
+ Comedy          | 2017 |  9.645052043354417
+ Comedy          | 2018 | 1.0779015123844147
+ Crime           | 2015 |  6.313669253187254
+ Crime           | 2016 |   8.06735334204776
+ Crime           | 2017 | 16.721486774523083
+ Crime           | 2018 | 2.1785459518432617
+ Documentary     | 2015 | 1.1092899673028416
+ Documentary     | 2016 | 1.1808999114287047
+ Documentary     | 2017 | 1.5732071665955372
+ Drama           | 2015 |  4.708350808037797
+ Drama           | 2016 |  5.452015723017129
+ Drama           | 2017 | 10.108629966477553
+ Drama           | 2018 | 1.2405206312735875
+ Family          | 2015 | 11.732420990673395
+ Family          | 2016 |  7.071236974529682
+ Family          | 2017 | 29.360978592009772
+ Fantasy         | 2015 |  5.999588690662327
+ Fantasy         | 2016 | 11.189964299400648
+ Fantasy         | 2017 |  50.78768453272906
+ Fantasy         | 2018 | 1.9176490306854248
+ Fantasy         | 2020 |  6.020054817199707
+ History         | 2015 |   4.13717697635293
+ History         | 2016 |  7.688719866424799
+ History         | 2017 | 13.004067540168762
+ Horror          | 2015 | 3.9277790853819208
+ Horror          | 2016 |  5.334735262838986
+ Horror          | 2017 | 13.661811497062445
+ Music           | 2015 |  4.839790988640458
+ Music           | 2016 | 3.5774769576766143
+ Music           | 2017 |  5.549081460996107
+ Mystery         | 2015 |  5.288583955168724
+ Mystery         | 2016 | 6.1665689522514535
+ Mystery         | 2017 | 11.397733008861541
+ Romance         | 2015 |  4.311963906426999
+ Romance         | 2016 |  3.907984580779853
+ Romance         | 2017 | 16.684759657352398
+ Romance         | 2018 |  3.328260898590088
+ Science Fiction | 2015 |  7.545100227553855
+ Science Fiction | 2016 |  9.016515055965437
+ Science Fiction | 2017 |  25.05207663953304
+ Science Fiction | 2018 | 1.9176490306854248
+ Science Fiction | 2020 |  6.020054817199707
+ Thriller        | 2015 |  5.447273056954145
+ Thriller        | 2016 |  6.462265598794184
+ Thriller        | 2017 |  16.73249221216607
+ Thriller        | 2018 | 2.1785459518432617
+ TV Movie        | 2015 |  1.818430302939454
+ TV Movie        | 2016 | 1.7051952989263968
+ TV Movie        | 2017 |  5.108618805805842
+ War             | 2015 | 5.1605070893253595
+ War             | 2016 |  7.131844951283364
+ War             | 2017 |  22.32928008834521
+ Western         | 2015 |  7.682003263384104
+ Western         | 2016 |  6.192965042591095
+ Western         | 2017 | 27.096092998981476
+(69 rows)
+
+      genre      |   average_rating   
+-----------------+--------------------
+ Western         | 3.7080418622105845
+ Crime           | 3.6114469398105028
+ Foreign         | 3.6101905692091037
+ Animation       | 3.6088360762063456
+ Thriller        | 3.5961619244268450
+ TV Movie        | 3.5953057650862069
+ Action          | 3.5920786296634404
+ Mystery         | 3.5743241965576361
+ Romance         | 3.5659588360318003
+ Comedy          | 3.5635993524827500
+ Drama           | 3.5613641063033258
+ War             | 3.5357872536742899
+ Horror          | 3.5187695483192082
+ Fantasy         | 3.5066385326306506
+ Documentary     | 3.4845243729294841
+ Music           | 3.4807812518428533
+ Science Fiction | 3.4692555759159664
+ History         | 3.4340545655135589
+ Adventure       | 3.4314777654718068
+ Family          | 3.3422127679441614
+(20 rows)
+
